@@ -1,0 +1,5 @@
+print('Calculando preço de um carro alugado')
+km = float(input('Quantos Kilômetros foram percorridos com o carro (total)? '))
+alu = int(input('Por quantos dias ficou alugado? '))
+aluF = (km * 0.15) + (alu * 60)
+print('Considerando que: \n Foram rodados {}Kms \n O aluguel foi por {} dias \n valor a ser pago: R${:.2f}'.format(km, alu, aluF))
